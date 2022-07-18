@@ -17,3 +17,5 @@ Route::get('/', 'PagesController@home')->name('home');
 Route::get('/abouts', 'PagesController@about')->name('about');
 Route::get('/contacts', 'PagesController@contacts')->name('contacts');
 
+Route::get('/comics', 'ComicsController@index')->name('comics.index');
+Route::get('/comics', 'ComicsController@store')->name('comics.store');
