@@ -17,4 +17,8 @@ class PagesController extends Controller
     public function contacts(){
         return view('front.contacts');
     }
+
+    // public function index(){
+    //     return view('admin.comics.index');
+    // }
 }
